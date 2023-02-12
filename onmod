@@ -1,3 +1,3 @@
 sudo rm /sdcard/android/data/com.zigzagame.evertale/files/equipment.json /sdcard/android/data/com.zigzagame.evertale/files/monster.json /sdcard/android/data/com.zigzagame.evertale/files/ability.json
-sudo unzip /sdcard/android/data/com.zigzagame.evertale/files/mod.zip -d /sdcard/android/data/com.zigzagame.evertale/files/
+sudo unzip /data/data/com.termux/files/usr/file/mod.zip -d /sdcard/android/data/com.zigzagame.evertale/files/
 

@@ -1,4 +1,0 @@
-sudo rm -rf  /sdcard/android/data/com.zigzagame.evertale/files/saves /sdcard/android/data/com.zigzagame.evertale/files/RestoreInProgress.json
-sudo mv /sdcard/android/data/com.zigzagame.evertale /sdcard/android/data/com.zigzagame.evertale123
-sudo cmd package clear com.zigzagame.evertale
-sudo mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/com.zigzagame.evertale

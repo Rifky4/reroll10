@@ -1,5 +1,5 @@
-chmod +x reroll rerollnormal rerollend rerollunlock onmod unmod
-sudo cp reroll rerollnormal rerollend rerollunlock onmod unmod /data/data/com.termux/files/usr/bin
+chmod +x reroll
+sudo cp reroll /data/data/com.termux/files/usr/bin
 cd file
 sudo unzip reroll.zip -d /data/data/com.termux/files/usr/file
 

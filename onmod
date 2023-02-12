@@ -1,9 +1,0 @@
-file="/data/data/com.termux/files/usr/file/mod.zip"
-if [ -e $file ]
-then
-   sudo rm /sdcard/android/data/com.zigzagame.evertale/files/equipment.json /sdcard/android/data/com.zigzagame.evertale/files/monster.json /sdcard/android/data/com.zigzagame.evertale/files/ability.json
-   sudo unzip /data/data/com.termux/files/usr/file/mod.zip -d /sdcard/android/data/com.zigzagame.evertale/files/
-else
-   echo "The file does not exist"
-fi
-

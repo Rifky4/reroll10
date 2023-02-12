@@ -1,0 +1,66 @@
+#!/bin/bash
+pilih=9
+while [ $pilih -ne 0 ]
+do
+clear
+echo "======================="
+echo "Tool reroll by Rifky"
+echo "======================="
+echo "1. Reroll"
+echo "2. Reroll Offline story tamat"
+echo "3. Reroll offline story tamat + unlock all online story"
+echo "4. Aktifkan Mod"
+echo "5. Nonaktifkan Mod"
+echo "6. Status Mod"
+echo "0. Exit"
+read -p  "pilih nomor: " pilih
+if [ $pilih -eq 1 ]
+then
+
+echo "Proses Reroll"
+sleep 1
+rerollnormal
+sleep 2
+elif [ $pilih -eq 2 ]
+then
+echo "Proses Reroll offline story tamat" 
+sleep 1
+rerollend
+sleep 2
+elif [ $pilih -eq 3 ]
+then
+echo "Proses Reroll offline story tamat + unlock all online story"
+sleep 1
+rerollunlock
+sleep 2
+elif [ $pilih -eq 4 ]
+then
+echo "Proses Mengaktifkan Mod"
+sleep 1
+onmod
+touch statusmod
+echo "Aktif" > statusmod
+echo
+echo "Succsess"
+sleep 2
+elif [ $pilih -eq 5 ]
+then
+echo "Proses Nonaktifkan Mod"
+sleep 1
+unmod
+touch statusmod
+echo "Nonaktif" > statusmod
+echo "Succsess"
+sleep 2
+elif [ $pilih -eq 6 ]
+then
+echo "Status Mod"
+cat statusmod
+sleep 4
+elif [ $pilih -eq 0 ]
+then
+echo "exit"
+else 
+echo "pilihan tidak ada"
+fi
+done

@@ -1,8 +1,4 @@
-file="/sdcard/android/data/com.zigzagame.evertale/files/saves"
-if [ -d $file ]
-then
 sudo rm -rf  /sdcard/android/data/com.zigzagame.evertale/files/saves
-else
 echo "The file does not exist"
 sudo mv /sdcard/android/data/com.zigzagame.evertale /sdcard/android/data/com.zigzagame.evertale123
 sudo cmd package clear com.zigzagame.evertale

@@ -1,8 +1,8 @@
-sudo rm -rf  /sdcard/android/data/com.zigzagame.evertale/files/saves
 file="/data/data/com.termux/files/usr/file/rifkynormal.zip"
 if [ -e $file ]
 then
-   sudo unzip /data/data/com.termux/files/usr/file/rifkynormal.zip -d /sdcard/android/data/com.zigzagame.evertale/files/
+sudo rm -rf  /sdcard/android/data/com.zigzagame.evertale/files/saves
+sudo unzip /data/data/com.termux/files/usr/file/rifkynormal.zip -d /sdcard/android/data/com.zigzagame.evertale/files/
 sudo mv /sdcard/android/data/com.zigzagame.evertale /sdcard/android/data/com.zigzagame.evertale123
 sudo cmd package clear com.zigzagame.evertale
 sudo mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/com.zigzagame.evertale

@@ -1,5 +1,5 @@
 chmod +x reroll rerollnormal rerollend rerollunlock onmod unmod
-cp reroll rerollnormal rerolend rerollunlock mod unmod /data/data/com.termux/files/usr/bin
-cd file
-cp rifkynormal.zip rifkyunlock.zip mod.zip unmod.zip /data/data/com.termux/files/usr/file
+sudo cp reroll rerollnormal rerolend rerollunlock mod unmod /data/data/com.termux/files/usr/bin
+sudo cd file
+sudo cp rifkynormal.zip rifkyunlock.zip mod.zip unmod.zip /data/data/com.termux/files/usr/file
 

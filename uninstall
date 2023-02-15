@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo rm /data/data/com.termux/files/usr/bin/reroll /data/data/com.termux/files/usr/bin/statusmod
+sudo rm -rf /data/data/com.termux/files/usr/file
+

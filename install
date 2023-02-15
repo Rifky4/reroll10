@@ -1,3 +1,4 @@
+#!/bin/bash
 unzip reroll.zip -d /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/reroll
 cd file

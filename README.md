@@ -1,4 +1,4 @@
-# Reroll for Evertale
+# Reroll for Evertale 
  Easy reroll and other tool, This tools only for Termux and Root access is required
 # Requirement tools
 + git
@@ -26,14 +26,13 @@ chmod +x install
 ```bash
 ./install
 ```
-+ Unzip password needed
-Please ask password in Issues
+🔒Unzip password needed
 # Run reroll
 Run in folder reroll
 ```bash
 ./reroll
 ```
-Easy Run
+Fast Run
 ```bash
 reroll
 ```

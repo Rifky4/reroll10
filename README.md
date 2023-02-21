@@ -1,6 +1,5 @@
 # Reroll for Evertale
- Easy reroll and other tool
- This tools only for Termux and Root access is required
+ Easy reroll and other tool, This tools only for Termux and Root access is required
 # Requirement tools
 + git
 ```bash

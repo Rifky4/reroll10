@@ -21,6 +21,9 @@ git clone https://github.com/Rifky4/reroll
 cd reroll
 ```
 ```bash
+chmod +x install
+```
+```bash
 ./install
 ```
 + Unzip password needed

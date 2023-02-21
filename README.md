@@ -2,8 +2,11 @@
  This is a tool to make it easier to reroll Evertale
 ___
 # What do you need to run?
-+ device is already rooted
-+ git
++ Android device (already Root)
++ Termux app (this tools only for termux)
+
+On Termux you need this
+* git
 ```bash
 apt install git
 ```

@@ -32,7 +32,7 @@ chmod +x install
 🔒Unzip password needed🔒
 ___
 # How to run?
-Run in folder reroll
+Run in reroll's folder
 ```bash
 ./reroll
 ```

@@ -1,7 +1,8 @@
-# Reroll for Evertale 
- Easy reroll and other tool, This tools only for Termux and Root access is required
-<img src="example.jpg"/>
-# Requirement tools
+# What this?
+ This is a tool to make it easier to reroll Evertale
+___
+# What do you need to run?
++ device is already rooted
 + git
 ```bash
 apt install git
@@ -14,7 +15,8 @@ apt install tsu
 ```bash
 termux-setup-storage
 ```
-# Installation
+___
+# How to install?
 ```bash
 git clone https://github.com/Rifky4/reroll
 ```
@@ -27,8 +29,9 @@ chmod +x install
 ```bash
 ./install
 ```
-🔒Unzip password needed
-# Run reroll
+🔒Unzip password needed🔒
+___
+# How to run?
 Run in folder reroll
 ```bash
 ./reroll
@@ -37,4 +40,6 @@ Fast Run
 ```bash
 reroll
 ```
-
+___
+# How does it look when the tool is running?
+<img src="example.jpg"/>

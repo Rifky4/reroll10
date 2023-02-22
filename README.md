@@ -49,5 +49,5 @@ ___
 
 ___
 # This tools not work?
-+ Before rerolling make sure Evertale is not connected to Google Play 
++ Before rerolling make sure Evertale is not connected to Google Play Game
 + Tools still not working? Make sure to run the tools in Termux and the device is rooted

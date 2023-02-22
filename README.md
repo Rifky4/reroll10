@@ -2,7 +2,7 @@
  This is a tool to make it easier to reroll Evertale
 ___
 # What do you need to run?
-+ Android device (already Root)
++ Android device (Rooted)
 + Termux app (this tools only for termux)
 
 On Termux you need this
@@ -46,3 +46,8 @@ reroll
 ___
 # How does it look when the tool is running?
 <img src="example.jpg"/>
+
+___
+# This tools not work?
++ Before rerolling make sure Evertale is not connected to Google Play 
++ Tools still not working? Make sure to run the tools in Termux and the device is rooted

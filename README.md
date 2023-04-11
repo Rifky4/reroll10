@@ -2,17 +2,13 @@
  This is a tool to make it easier to reroll Evertale
 ___
 # What do you need to run?
-+ Android device (Rooted)
++ Android device root or android (9 or below)
 + Termux app (this tools only for termux)
 
 On Termux you need this
 * git
 ```bash
 apt install git
-```
-+ tsu
-```bash
-apt install tsu
 ```
 + Storage permissions 
 ```bash
@@ -21,7 +17,7 @@ termux-setup-storage
 ___
 # How to install?
 ```bash
-git clone https://github.com/Rifky4/reroll
+git clone https://github.com/Rifky4/reroll10
 ```
 ```bash
 cd reroll
@@ -35,13 +31,13 @@ chmod +x install
 🔒Unzip password needed🔒
 ___
 # How to run?
-Run in reroll's folder
+Run in reroll10's folder
 ```bash
-./reroll
+./reroll10
 ```
 Fast Run
 ```bash
-reroll
+reroll10
 ```
 ___
 # How does it look when the tool is running?
@@ -50,4 +46,4 @@ ___
 ___
 # This tools not work?
 + Before rerolling make sure Evertale is not connected to Google Play Game
-+ Still not work? Make sure to run the tools in Termux and the device is rooted
++ Still not work? Make sure to run the tools in Termux and the device is rooted or android (9 or below)

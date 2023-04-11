@@ -1,7 +1,7 @@
 #!/bin/bash
 unzip reroll.zip -d /data/data/com.termux/files/usr/bin
-chmod +x /data/data/com.termux/files/usr/bin/reroll
+chmod +x /data/data/com.termux/files/usr/bin/reroll10
 cd file
 
-sudo unzip file.zip -d /data/data/com.termux/files/usr/rerollfile
+unzip file.zip -d /data/data/com.termux/files/home/reroll10/file
 

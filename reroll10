@@ -42,6 +42,7 @@ cp -r /sdcard/android/data/$package/files/saves /sdcard/backup/saves_backup
 rm -rf /sdcard/android/data/$package/files/saves /sdcard/android/data/$package/files/RestoreInProgress.json
 mv /sdcard/android/data/$package /sdcard/android/data/com.zigzagame.evertale123
 cmd package clear $package
+adb shell pm clear $package
 mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/$package
 elif [ $choose = "3" ]
 then
@@ -57,6 +58,7 @@ rm -rf /sdcard/android/data/$package/files/saves /sdcard/android/data/$package/f
 unzip /data/data/com.termux/files/home/reroll10/file/rifkynormal.zip -d /sdcard/android/data/$package/files/
 mv /sdcard/android/data/$package /sdcard/android/data/com.zigzagame.evertale123
 cmd package clear $package
+adb shell pm clear $package
 mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/$package
 else
    echo "The file does not exist"
@@ -76,6 +78,7 @@ rm -rf /sdcard/android/data/$package/files/saves /sdcard/android/data/$package/f
 unzip /data/data/com.termux/files/home/reroll10/file/rifkyunlock.zip -d /sdcard/android/data/$package/files/
 mv /sdcard/android/data/$package /sdcard/android/data/com.zigzagame.evertale123
 cmd package clear $package
+adb shell pm clear $package
 mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/$package
 else
    echo "The file does not exist"
@@ -89,6 +92,7 @@ rm -rf /sdcard/android/data/$package/files/saves
 cp -r /sdcard/backup/saves_backup /sdcard/android/data/$package/files/saves
 mv /sdcard/android/data/$package /sdcard/android/data/com.zigzagame.evertale123
 cmd package clear $package
+adb shell pm clear $package
 mv /sdcard/android/data/com.zigzagame.evertale123 /sdcard/android/data/$package
 echo "Open app and check the code"
 sleep 2

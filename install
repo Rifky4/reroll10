@@ -1,10 +1,8 @@
 #!/bin/bash
 apt install android-tools
 unzip reroll10.zip
-cp reroll10 /data/data/com.termux/files/usr/bin
-
+cp /data/data/com.termux/files/home/reroll10/reroll10 /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/reroll10
-cd file
-unzip file.zip -d /data/data/com.termux/files/home/reroll10/file
+unzip /data/data/com.termux/files/home/reroll10/file.zip -d /data/data/com.termux/files/home/reroll10/file
 
 

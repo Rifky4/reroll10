@@ -1,7 +1,6 @@
 #!/bin/bash
 rm /data/data/com.termux/files/usr/bin/reroll10 /data/data/com.termux/files/usr/bin/statusmod
 rm -rf /data/data/com.termux/files/usr/file/reroll10
-rm reroll10
-cd file
-rm mod.zip rifkynormal.zip rifkyunlock.zip
+rm /data/data/com.termux/files/home/reroll10/reroll10
+rm /data/data/com.termux/files/home/reroll10/mod.zip /data/data/com.termux/files/home/reroll10/rifkynormal.zip /data/data/com.termux/files/home/reroll10/rifkyunlock.zip
 echo "success"
